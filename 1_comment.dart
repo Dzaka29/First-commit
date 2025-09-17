@@ -12,7 +12,7 @@
  */
 void main(List<String> args) {
   print("Dart is fun");
-  print("5 * 5 = ${multiply()}")
+  print("5 * 5 = ${muliply()}");
 }
 int muliply(){
   return 5 * 5;
