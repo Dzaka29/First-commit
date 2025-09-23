@@ -14,6 +14,8 @@ void main() {
   birthDay2();
   birthday2("Tungsky", "el yoman", 19);
   birthDay3("Cemani", age: 39, weight: 1590 );
+  print("Luas Lingkaran ${luasLingkaran(10)}");
+  print("Keliling Lingkaran ${kelilingLingkaran(10)}");
 
 }
 //memanggil function
@@ -36,3 +38,19 @@ void birthDay3(String name, {int age = 17, weight = 66.0, Height = 1000 }){
   print("""Happy BirthDay $name, yang ke $age,
          beratmu $weight, Tinggiku $Height""");
 }
+
+//arrow function with return value
+/**
+ * num adalah tipe data untuk angka
+ * nama functionya [luasLingkaran]
+ * memiliki parameter r(jari-jari)
+ */
+//buat variable global
+const pi = 3.14;//variable konstan global
+
+num luasLingkaran(num r){
+  return 3.14 * r *r;
+}
+
+//arrow function 
+num kelilingLingkaran(num r)=> 2 * pi * r;
