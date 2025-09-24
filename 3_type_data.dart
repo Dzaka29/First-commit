@@ -16,10 +16,10 @@
 
 void main(List<String> args) {
   String nama = "ucup" ;
-  int age = 24
+  int age = 24;
   var tinggi_badan;
-  tinggi_badan = 159
-  tinggi_badan = "Seratus enam puluh"
+  tinggi_badan = 159;
+  tinggi_badan = "Seratus enam puluh";
   
   bool IsMaried = false;
   double Berat_Badan = 67.7 ;
