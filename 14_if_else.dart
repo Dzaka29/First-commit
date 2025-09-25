@@ -42,4 +42,16 @@ if (jamSekarang < jamBuka) {
 } else if (jamSekarang >= jamTutup) {
   print('Toko sudah tutup');
 }
+
+/**
+ * program menggunakan stdin (input) nilaiUjian 
+ * var nilaiUjian type data double ketentuan nilai 
+ * hasilnya ada dibawah ini jika nilai kurang dari 0
+ * maka outputnya itu "Tidak teridentifikasi (Tidak terdaftar)"
+ * jika nilai lebih dari 100 maka outputnya 
+ * "ini adalah cheater"
+ * 
+ * Nilai anda "A/B/C/D/E"
+ * A-C itu lulus dan D-E itu remedial
+ */
 }
