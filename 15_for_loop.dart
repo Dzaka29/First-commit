@@ -17,6 +17,8 @@ void main(List<String> args) {
   // perulangan bersarang
 
   for (var i = 1; i < 6; ++) {
-    for (var j = 1; j < i count; ++)
+    var bintang = '';
+    for (var j = i; j < i; j++)
+    bintang += '*';
   }
 }
