@@ -13,7 +13,7 @@ void main(List<String> args) {
   */
   final firstNumber = 10;
   final secondNumber = 2;
-  String operator ='%';
+  String operator ='+';
   switch (operator) {
     case '+':
       print('$firstNumber + $secondNumber = ${firstNumber + secondNumber}');
@@ -33,8 +33,73 @@ void main(List<String> args) {
     default:
     print('Operator tidak valid');// dafault
   }
-
+  /**
+   * buatkan perhitungan dengan inputan
+   * angkapertama, angkakedua, angkaketiga
+   * +,-,/,*,%,-/
+   * 
+   * buatkan pengecekan hari senin-jum'at itu
+   * "ini hari kerja"
+   * hari sabtu-ahad itu
+   * "ini hari libur"
+   * 
+   * buatkan pengecekan kendaraan 
+   * 1. mobil
+   * 2. motor
+   * 3. kapal
+   * 4. tidak terdefinisi
+   */
+  stdout.write('Masukan angka pertama = ');
+  int angkaPertama = int.parse(stdin.readLineSync()!);
+  stdout.write('Masukan angka kedua = ');
+  int angkaKedua = int.parse(stdin.readLineSync()!);
+  stdout.write('Masukan angka ketiga = ');
+  int angkaKetiga = int.parse(stdin.readLineSync()!);
+  stdout.write('Masukan symbol yang anda mau = ');
+  var penjumlahan = stdin.readLineSync()!;
+  switch (penjumlahan) {
+    case "+":
+      print('$penjumlahan');
+      print('$angkaPertama + $angkaKedua + $angkaKetiga = ${angkaPertama + angkaKedua + angkaKetiga}');
+      break;
+    case "-":
+      print('$penjumlahan');
+      print('$angkaPertama - $angkaKedua - $angkaKetiga = ${angkaPertama - angkaKedua - angkaKetiga}');
+      break;
+   
+    case "/":
+      print('$penjumlahan');
+      print('$angkaPertama / $angkaKedua / $angkaKetiga = ${angkaPertama / angkaKedua / angkaKetiga}');
+      break;
+    case "*":
+      print('$penjumlahan');
+      print('$angkaPertama * $angkaKedua * $angkaKetiga = ${angkaPertama * angkaKedua * angkaKetiga}');
+      break;
+    case "%":
+      print('$penjumlahan');
+      print('$angkaPertama % $angkaKedua % $angkaKetiga = ${angkaPertama % angkaKedua % angkaKetiga}');
+      break;
+    
+   
+    default:
+  }
   
-  var angka1 = stdout.write('Masukan angka pertama =');
-  print(angka1);
+  //soal 2
+  var senin;
+  var selasa;
+  var rabu;
+  var kamis;
+  var jumat;
+  var sabtu;
+  var minggu;
+  String 
+
+  switch (expression) {
+    case value:
+      stdout.write('Masukan Hari = ');
+      if (senin)
+      break;
+    default:
+  }
+ 
 }
