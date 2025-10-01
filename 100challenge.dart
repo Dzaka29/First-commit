@@ -25,14 +25,14 @@ void main(List<String> args) {
  stdout.write('Masukan Nilai Anda = ');
  var nilaiUjian;
  if (nilaiUjian <= 70) {
-  print('Anda tolol banget dapet nilai E');
+  print('Anda tolol banget dapet nilai E $nilaiUjian');
  } else if(nilaiUjian >= 71-75) {
-  print('Anda tidak telalu pintar anda mendapatkan nilai D');
+  print('Anda tidak telalu pintar anda mendapatkan nilai D $nilaiUjian');
  } else if(nilaiUjian >= 76-85) {
-  print('Anda setandar nilai C');
+  print('Anda setandar nilai C $nilaiUjian');
  } else if(nilaiUjian >= 86-90) {
-  print('Anda agak pintar Nilai B');
+  print('Anda agak pintar Nilai B$nilaiUjian');
  } else if(nilaiUjian >= 91-100) {
-  print('Anda Cheater Nilai A');
+  print('Anda Cheater Nilai A $nilaiUjian');
  }
 }
