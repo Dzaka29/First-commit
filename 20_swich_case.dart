@@ -92,10 +92,10 @@ void main(List<String> args) {
   var jumat;
   var sabtu;
   var minggu;
-  String 
+  String hari_hari = '';
 
-  switch (expression) {
-    case value:
+  switch (hari_hari) {
+    case senin:
       stdout.write('Masukan Hari = ');
       if (senin)
       break;
