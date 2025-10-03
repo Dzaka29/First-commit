@@ -65,4 +65,11 @@ void main(List<String> args) {
 
   // untuk pemanggilan data dari menggunakan [index]
   // dimulai dari 0
+
+  /**
+   * 1. buatkan list yang berisi 5 nama dari A-E
+   * -tampilkan data nama index 3
+   * -tambahkan nama baru, lalu hapus nama pertama
+   * -cek apakah nama eka ada dalam list
+   */
 }
