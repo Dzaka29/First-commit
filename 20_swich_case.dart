@@ -85,14 +85,7 @@ void main(List<String> args) {
   }
   
   //soal 2
-  var senin;
-  var selasa;
-  var rabu;
-  var kamis;
-  var jumat;
-  var sabtu;
-  var minggu;
-  String hari_hari = '';
+  
 
   switch (hari_hari) {
     case senin:
