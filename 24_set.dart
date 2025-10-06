@@ -27,4 +27,43 @@ void main(List<String> args) {
    * intersection (∩) => hanya menggabungkan "data yang sama" dari kedua
    * himpuan yang dipertimbangkan
    */
+
+  Set<num> segmentA = {1, 3, 5, 7};
+  Set<num> segmentB = {1, 2, 3, 4, 5};
+  //union => gabungan dari 2 set / lebih
+  var unionSegment = segmentA.union(segmentB);
+  print(unionSegment);
+
+  var intersectionSegment = segmentA.intersection(segmentB);
+  print(intersectionSegment);
+
+  Set<int> segmentC = {1, 5, 7, 9, 10};
+  var intersectionB = segmentA.intersection(segmentC);
+  print(intersectionB);
+
+
+  /**
+   * buatkan 2 set yang menampung nama-nama minimal 7 nama
+   * dari masing-masing Set
+   * 1. tampilkan union
+   * 2. tampilkan intersection
+   * 3. tentukan panjang element dari keduanya
+   * 4. tentukan panjang element dari union
+   * 5. tentukkan panjang element dari intersection
+   */
+
+  Set<String> namaOrang = {'Dzaka', 'Bintang', 'Aqil', 'Cean', 'Arkham', 'Gavyn', 'Zaidan'} ;
+  Set<String> namaPP = {'Sipa', 'Dzaka', 'Iil', 'Aqil', 'Sisi', 'Suil', 'Siul'};
+
+ var unionNama = namaOrang.union(namaPP);
+ print(unionNama);
+
+ var interNama = namaOrang.intersection(namaPP);
+ print(interNama);
+
+ print(namaPP.length);
+ print(namaOrang.length);
+
+ print(unionNama.length);
+ print(interNama.length);
 }
