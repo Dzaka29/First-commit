@@ -1,6 +1,5 @@
 void main(List<String> args) {
- 
-  // ada single quote dan double quote 
+   // ada single quote dan double quote 
   // '' ini single quote
   //"" ini double quote
 
@@ -23,4 +22,7 @@ print("$singlequote dan $doublequote");
  print('\u{1F600}');
  print('\nuDnia');
 }
+ 
+ 
+
  

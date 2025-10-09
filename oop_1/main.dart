@@ -2,6 +2,7 @@ import '29_challenge_RPG.dart';
 import '27_class_animal.dart';
 import '28_class_plants.dart';
 import '30_construction.dart';
+import 'fish.dart';
 
 void main() {
   
@@ -54,6 +55,14 @@ gamerpg.basicAttack();
 //penggunaan cascade notation
 var hewan = Hewan('Ucup', 'coklate', 8.2)
 ..name = 'Putin'
-..color = "Pink - White"
+..color = 'red'
 ..eat();
+/**
+ * titik koma(;) menandakan berakhirnya sebuah baris kode
+ * jangan lupa titik koma(;)
+ */
+
+var bird =
+    bird('GEWE');
+    ...name;
 }
