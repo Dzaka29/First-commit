@@ -62,7 +62,5 @@ var hewan = Hewan('Ucup', 'coklate', 8.2)
  * jangan lupa titik koma(;)
  */
 
-var bird =
-    bird('GEWE');
-    ...name;
+
 }

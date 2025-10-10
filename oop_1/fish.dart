@@ -1,8 +1,7 @@
-import 'dart:ffi';
+
 
 import 'hewan.dart';
 
-import '30_construction.dart';
 
 void main(List<String> args) {
   /**
@@ -25,6 +24,6 @@ class bird extends Hewan {
 
   //method
   void swim() {
-    print('$na')
+    print('$name');
   }
 }
