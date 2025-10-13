@@ -37,13 +37,13 @@ void main(List<String> args) {
   var f = false;
   var s = false;
   print('$f || $s ${f||s}');
-  print('$f && $s ${f&&s}');
+  //print('$f && $s ${f&&s}');
   var c = false;
   var d = false;
   var e = true;
   //ignore: dead_code
   print('$c || $d ${c||d}');
-  print('$c && $e ${c || d && e}');
+  //print('$c && $e ${c || d && e}');
 
 
 }

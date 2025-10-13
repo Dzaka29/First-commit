@@ -90,6 +90,7 @@ void main(List<String> args) {
   switch (hari_hari) {
     case senin:
       stdout.write('Masukan Hari = ');
+      
       if (senin)
       break;
     default:
